@@ -506,10 +506,497 @@
                         <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
                         <h4 class="text-white text-sm font-medium">Tulienge</h4>
                     </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Namagofulo</h4>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Kapkirongo</h4>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Lwakhakha</h4>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Malakisi</h4>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Nambuya</h4>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Tamlega</h4>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Cheptais</h4>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Namubila</h4>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Chepsienya</h4>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:bg-white/10 transition">
+                        <i class="fa-solid fa-mosque text-amber-400 mb-2"></i>
+                        <h4 class="text-white text-sm font-medium">Huruma Chepyuk</h4>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- TESTIMONIALS -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-5">
+            <h2 class="font-display text-3xl text-forest-950 text-center mb-12">Voices from the community</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <i class="fa-solid fa-quote-left text-amber-400 text-2xl mb-4"></i>
+                    <p class="text-gray-600 italic mb-4">“The December seminar opened my eyes to both deen and practical skills. Proud to be part of this family.”</p>
+                    <p class="text-sm font-semibold text-forest-900">Youth Member</p>
+                </div>
+                <div class="text-center">
+                    <i class="fa-solid fa-quote-left text-amber-400 text-2xl mb-4"></i>
+                    <p class="text-gray-600 italic mb-4">“Through the savings scheme and farming projects our young people are starting real businesses. This is empowerment.”</p>
+                    <p class="text-sm font-semibold text-forest-900">Parent & Supporter</p>
+                </div>
+                <div class="text-center">
+                    <i class="fa-solid fa-quote-left text-amber-400 text-2xl mb-4"></i>
+                    <p class="text-gray-600 italic mb-4">“From clean-ups to sports and iftar distribution, Changara Muslim Youth truly touch lives. May Allah reward them.”</p>
+                    <p class="text-sm font-semibold text-forest-900">Mosque Representative</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="py-24 bg-forest-50">
+        <div class="max-w-7xl mx-auto px-5">
+            <div class="text-center mb-16">
+                <span class="text-amber-600 text-sm font-semibold tracking-widest uppercase">Photo Archive</span>
+                <h2 class="font-display text-4xl md:text-5xl text-forest-950 mt-2">Moments That Matter</h2>
+                <p class="text-gray-500 mt-3 max-w-xl mx-auto text-sm">Browse through our complete collection of seminars, leadership milestones, community outreach, farming, cleaning drives, and sports activities.</p>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-2 mb-12" id="filters">
+                <button onclick="filterGal('all')" data-f="all" class="filter-btn px-5 py-2.5 rounded-full text-sm font-semibold bg-forest-900 text-amber-400 shadow-sm transition">All Photos</button>
+                <button onclick="filterGal('leadership')" data-f="leadership" class="filter-btn px-5 py-2.5 rounded-full text-sm font-semibold bg-white text-gray-600 border border-gray-200 hover:border-amber-500 transition">Leadership & Awards</button>
+                <button onclick="filterGal('seminars')" data-f="seminars" class="filter-btn px-5 py-2.5 rounded-full text-sm font-semibold bg-white text-gray-600 border border-gray-200 hover:border-amber-500 transition">Seminars & Classes</button>
+                <button onclick="filterGal('community')" data-f="community" class="filter-btn px-5 py-2.5 rounded-full text-sm font-semibold bg-white text-gray-600 border border-gray-200 hover:border-amber-500 transition">Community & Outreach</button>
+                <button onclick="filterGal('cleaning')" data-f="cleaning" class="filter-btn px-5 py-2.5 rounded-full text-sm font-semibold bg-white text-gray-600 border border-gray-200 hover:border-amber-500 transition">Cleaning</button>
+                <button onclick="filterGal('farming')" data-f="farming" class="filter-btn px-5 py-2.5 rounded-full text-sm font-semibold bg-white text-gray-600 border border-gray-200 hover:border-amber-500 transition">Farming</button>
+                <button onclick="filterGal('sports')" data-f="sports" class="filter-btn px-5 py-2.5 rounded-full text-sm font-semibold bg-white text-gray-600 border border-gray-200 hover:border-amber-500 transition">Sports & Activities</button>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="gal">
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="leadership" onclick="openLb(0)">
+                    <img src="photo15.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Award'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Award Ceremony">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Leadership</span>
+                        <h4 class="text-white font-semibold text-sm">Certificate & Award Presentation</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="leadership" onclick="openLb(1)">
+                    <img src="chairman.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Chairman'" class="w-full h-full object-cover object-top group-hover:scale-110 transition duration-500" loading="lazy" alt="Chairman">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Leadership</span>
+                        <h4 class="text-white font-semibold text-sm">Office of the Chairman</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="leadership" onclick="openLb(2)">
+                    <img src="photo19.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Meeting'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Meeting">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Leadership</span>
+                        <h4 class="text-white font-semibold text-sm">Committee Consultation & Planning</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="seminars" onclick="openLb(3)">
+                    <img src="photo10.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Seminar'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Seminar">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Seminars</span>
+                        <h4 class="text-white font-semibold text-sm">December Seminar & Study Session</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="seminars" onclick="openLb(4)">
+                    <img src="photo13.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Lecture'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Lecture">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Seminars</span>
+                        <h4 class="text-white font-semibold text-sm">The Importance of Youth Lecture</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="seminars" onclick="openLb(5)">
+                    <img src="photo18.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Presentation'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Presentation">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Seminars</span>
+                        <h4 class="text-white font-semibold text-sm">Youth Recitation & Presentations</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="community" onclick="openLb(6)">
+                    <img src="photo1.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Group'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Community Group">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Community</span>
+                        <h4 class="text-white font-semibold text-sm">Community Gathering & Fellowship</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="community" onclick="openLb(7)">
+                    <img src="photo2.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Youth'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Youth Members">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Community</span>
+                        <h4 class="text-white font-semibold text-sm">Changara Youth Members</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="community" onclick="openLb(8)">
+                    <img src="photo16.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Tents'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Tent Gathering">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Community</span>
+                        <h4 class="text-white font-semibold text-sm">Outdoor Tents & Event Setup</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="community" onclick="openLb(9)">
+                    <img src="photo5.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Iftar'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Iftar">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Community</span>
+                        <h4 class="text-white font-semibold text-sm">Ramadan Iftar & Meal Sharing</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="cleaning" onclick="openLb(10)">
+                    <img src="photo26.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Cleaning'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Cleaning Drive">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Cleaning</span>
+                        <h4 class="text-white font-semibold text-sm">Community Clean-Up Exercise</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="farming" onclick="openLb(11)">
+                    <img src="photo22.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Farming'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Farming">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Farming</span>
+                        <h4 class="text-white font-semibold text-sm">Youth Agricultural Project</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="sports" onclick="openLb(12)">
+                    <img src="photo23.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Sports'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Sports">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Sports</span>
+                        <h4 class="text-white font-semibold text-sm">Football & Sports Tournaments</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item group relative aspect-square rounded-2xl overflow-hidden shadow-md bg-gray-900 cursor-pointer" data-cat="sports" onclick="openLb(13)">
+                    <img src="photo20.jpg" onerror="this.src='https://placehold.co/600x600/0a2f23/e8c547?text=Activities'" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" alt="Team Building">
+                    <div class="absolute inset-0 bg-gradient-to-t from-forest-950/90 via-forest-950/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-semibold tracking-wider uppercase">Sports</span>
+                        <h4 class="text-white font-semibold text-sm">Youth Team Building Activities</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-5">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <span class="text-amber-600 text-sm font-semibold tracking-widest uppercase">Get in Touch</span>
+                    <h2 class="font-display text-4xl text-forest-950 mt-2 mb-6">We'd love to hear from you</h2>
+                    <p class="text-gray-600 mb-8 leading-relaxed">Whether you want to join our youth group, invite us to collaborate, register a delegation for the seminar, or support our clean-up, farming and donation drives, feel free to reach out.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-forest-100 text-forest-900 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-forest-900">Location</h3>
+                                <p class="text-gray-500 text-sm mt-1">Changara, Teso North Sub-County, Busia County, Kenya</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-forest-100 text-forest-900 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-forest-900">Phone & WhatsApp</h3>
+                                <p class="text-gray-500 text-sm mt-1">+254 746 805529</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-forest-100 text-forest-900 flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-forest-900">Email</h3>
+                                <p class="text-gray-500 text-sm mt-1">changarayouths@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-forest-50 p-8 rounded-3xl border border-forest-100">
+                    <h3 class="font-display text-2xl text-forest-950 mb-6">Send us a message</h3>
+                    <form onsubmit="handleContact(event)" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Your Name</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-xl bg-white border border-gray-200 text-sm focus:outline-none focus:border-amber-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Phone / Email</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-xl bg-white border border-gray-200 text-sm focus:outline-none focus:border-amber-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Message</label>
+                            <textarea rows="4" required class="w-full px-4 py-3 rounded-xl bg-white border border-gray-200 text-sm focus:outline-none focus:border-amber-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full btn-gold py-3.5 rounded-xl font-semibold text-sm">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-forest-950 text-white py-14 border-t border-white/10">
+        <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2 space-y-4">
+                <div class="flex items-center gap-3">
+                    <img src="logo.png" onerror="this.src='https://placehold.co/50x50/0a2f23/e8c547?text=CMY'" alt="Logo" class="w-9 h-9 rounded-full border border-amber-500 object-cover">
+                    <span class="font-semibold tracking-wide">Changara Muslim Youth Self Help Group</span>
+                </div>
+                <p class="text-white/60 text-sm max-w-sm leading-relaxed">
+                    Faith, education, economic self-reliance, cleaning, farming, sports, and community leadership in Teso North, Busia County.
+                </p>
+            </div>
+            
+            <div>
+                <h4 class="font-semibold text-sm text-amber-400 uppercase tracking-wider mb-4">Quick Links</h4>
+                <ul class="space-y-2.5 text-sm text-white/70">
+                    <li><a href="#about" class="hover:text-amber-400 transition">About Us</a></li>
+                    <li><a href="#leader" class="hover:text-amber-400 transition">Leadership</a></li>
+                    <li><a href="#work" class="hover:text-amber-400 transition">Our Programmes</a></li>
+                    <li><a href="#donate" class="hover:text-amber-400 transition">Donate</a></li>
+                    <li><a href="#event" class="hover:text-amber-400 transition">December Seminar 2026</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="font-semibold text-sm text-amber-400 uppercase tracking-wider mb-4">Connect With Us</h4>
+                <div class="flex gap-3 mb-4">
+                    <a href="https://wa.me/254746805529" target="_blank" class="w-10 h-10 rounded-full bg-white/5 hover:bg-amber-500 hover:text-forest-950 transition flex items-center justify-center text-white border border-white/10">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="tel:+254746805529" class="w-10 h-10 rounded-full bg-white/5 hover:bg-amber-500 hover:text-forest-950 transition flex items-center justify-center text-white border border-white/10">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <a href="mailto:changarayouths@gmail.com" class="w-10 h-10 rounded-full bg-white/5 hover:bg-amber-500 hover:text-forest-950 transition flex items-center justify-center text-white border border-white/10">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+                <p class="text-xs text-white/50">Paybill: 400200 | A/C: 55549</p>
+            </div>
+        </div>
+        
+        <div class="max-w-6xl mx-auto px-5 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-white/40">
+            <p>&copy; 2026 Changara Muslim Youth Self Help Group. All rights reserved.</p>
+            <p class="mt-2 sm:mt-0">Teso North Sub-County, Busia County, Kenya</p>
+        </div>
+    </footer>
+
+    <!-- MODALS -->
+    <div id="joinModal" class="fixed inset-0 z-50 hidden bg-forest-950/80 backdrop-blur-sm flex items-center justify-center px-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-8 relative shadow-2xl">
+            <button onclick="closeModal('joinModal')" class="absolute top-6 right-6 text-gray-400 hover:text-gray-600">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+            <h3 class="font-display text-2xl text-forest-950 mb-2">Join Changara Youth</h3>
+            <p class="text-sm text-gray-500 mb-6">Fill in your details to become a registered member.</p>
+            <form onsubmit="handleModalSubmit(event, 'Join Request Sent!')" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Full Name</label>
+                    <input type="text" required class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 text-sm focus:outline-none focus:border-amber-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Phone Number / WhatsApp</label>
+                    <input type="text" required class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 text-sm focus:outline-none focus:border-amber-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Village / Mosque</label>
+                    <input type="text" required class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 text-sm focus:outline-none focus:border-amber-500">
+                </div>
+                <button type="submit" class="w-full btn-gold py-3.5 rounded-xl font-semibold text-sm">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="delegationModal" class="fixed inset-0 z-50 hidden bg-forest-950/80 backdrop-blur-sm flex items-center justify-center px-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-8 relative shadow-2xl">
+            <button onclick="closeModal('delegationModal')" class="absolute top-6 right-6 text-gray-400 hover:text-gray-600">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+            <h3 class="font-display text-2xl text-forest-950 mb-2">Register Delegation</h3>
+            <p class="text-sm text-gray-500 mb-6">Register your mosque youth group for the December 2026 Seminar.</p>
+            <form onsubmit="handleModalSubmit(event, 'Delegation Registered Successfully!')" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Mosque / Community Name</label>
+                    <input type="text" required class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 text-sm focus:outline-none focus:border-amber-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Group Leader Contact</label>
+                    <input type="text" required class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 text-sm focus:outline-none focus:border-amber-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Estimated Attendees</label>
+                    <input type="number" required class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 text-sm focus:outline-none focus:border-amber-500">
+                </div>
+                <button type="submit" class="w-full btn-gold py-3.5 rounded-xl font-semibold text-sm">Register Delegation</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur flex items-center justify-center px-4" onclick="closeLb()">
+        <button class="absolute top-6 right-6 text-white text-3xl">&times;</button>
+        <img id="lbImg" src="" class="max-w-full max-h-[85vh] rounded-xl object-contain">
+    </div>
+
+    <!-- SCRIPTS -->
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileNav = document.getElementById('mobileNav');
+        const menuIcon = document.getElementById('menuIcon');
+
+        menuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('hidden');
+            menuIcon.classList.toggle('fa-bars');
+            menuIcon.classList.toggle('fa-xmark');
+        });
+
+        function closeMenu() {
+            mobileNav.classList.add('hidden');
+            menuIcon.classList.remove('fa-xmark');
+            menuIcon.classList.add('fa-bars');
+        }
+
+        function openModal(id) {
+            document.getElementById(id).classList.remove('hidden');
+        }
+        function closeModal(id) {
+            document.getElementById(id).classList.add('hidden');
+        }
+
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const filterBtns = document.querySelectorAll('.filter-btn');
+
+        function filterGal(cat) {
+            filterBtns.forEach(b => {
+                b.classList.remove('bg-forest-900', 'text-amber-400');
+                b.classList.add('bg-white', 'text-gray-600', 'border', 'border-gray-200');
+            });
+            event.target.classList.remove('bg-white', 'text-gray-600', 'border', 'border-gray-200');
+            event.target.classList.add('bg-forest-900', 'text-amber-400');
+
+            galleryItems.forEach(item => {
+                if(cat === 'all' || item.dataset.cat === cat) {
+                    item.classList.remove('hidden-item');
+                } else {
+                    item.classList.add('hidden-item');
+                }
+            });
+        }
+
+        const lbImages = [
+            'photo15.jpg',
+            'chairman.jpg',
+            'photo19.jpg',
+            'photo10.jpg',
+            'photo13.jpg',
+            'photo18.jpg',
+            'photo1.jpg',
+            'photo2.jpg',
+            'photo16.jpg',
+            'photo5.jpg',
+            'photo26.jpg',
+            'photo22.jpg',
+            'photo23.jpg',
+            'photo20.jpg'
+        ];
+
+        function openLb(idx) {
+            event.stopPropagation();
+            const modal = document.getElementById('lightbox');
+            const img = document.getElementById('lbImg');
+            img.src = lbImages[idx] || 'https://placehold.co/800x800/0a2f23/e8c547?text=CMY';
+            modal.classList.remove('hidden');
+        }
+
+        function closeLb() {
+            document.getElementById('lightbox').classList.add('hidden');
+        }
+
+        // Target Date: Sunday 20th December 2026 Opening Ceremony
+        const targetDate = new Date('December 20, 2026 08:00:00').getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const gap = targetDate - now;
+
+            if(gap < 0) {
+                document.getElementById('d').innerText = '00';
+                document.getElementById('h').innerText = '00';
+                document.getElementById('m').innerText = '00';
+                document.getElementById('s').innerText = '00';
+                return;
+            }
+
+            const days = Math.floor(gap / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((gap % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((gap % (1000 * 60)) / 1000);
+
+            const dEl = document.getElementById('d');
+            const hEl = document.getElementById('h');
+            const mEl = document.getElementById('m');
+            const sEl = document.getElementById('s');
+
+            if(dEl) dEl.innerText = String(days).padStart(2, '0');
+            if(hEl) hEl.innerText = String(hours).padStart(2, '0');
+            if(mEl) mEl.innerText = String(minutes).padStart(2, '0');
+            if(sEl) sEl.innerText = String(seconds).padStart(2, '0');
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        function handleContact(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            e.target.reset();
+        }
+
+        function handleModalSubmit(e, msg) {
+            e.preventDefault();
+            alert(msg);
+            e.target.reset();
+            closeModal('joinModal');
+            closeModal('delegationModal');
+        }
+    </script>
 </body>
 </html>
